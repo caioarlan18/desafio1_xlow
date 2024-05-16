@@ -1,4 +1,69 @@
-*{
+* {
     margin: 0 auto;
     padding: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container1 {
+    margin-top: 50px;
+    width: 40%;
+}
+
+.container1 h1 {
+    font-size: 13px;
+    font-family: poppins;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+}
+
+.container1 button {
+    width: 100%;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    cursor: pointer;
+    font-family: poppins;
+}
+
+.container1 img {
+    width: 100px;
+    display: flex;
+}
+
+.mudarCel {
+    width: 80%;
+}
+
+
+.ordem button {
+    cursor: pointer;
+}
+
+@media screen and (min-width:767px) and (max-width: 3000px) {
+    .container {
+        width: 100%;
+    }
+
+    .container1 {
+        width: 20%;
+
+    }
+
+    .container1 h1 {
+        height: 50px;
+    }
+
+    .mudarDesk {
+        width: 25%;
+    }
 }
