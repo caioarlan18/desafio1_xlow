@@ -88,6 +88,10 @@ async function createProduct() {
                 priceTag.classList.add("price");
                 priceTag.innerHTML = `R$ ${price}`;
                 productDiv.appendChild(priceTag)
+                const promopriceTag = document.createElement("h2");
+                promopriceTag.classList.add("promoprice");
+                promopriceTag.innerHTML = `R$ ${promoprice}`;
+                productDiv.appendChild(promopriceTag);
             } else {
                 const promopriceTag = document.createElement("h2");
                 promopriceTag.classList.add("promoprice");
