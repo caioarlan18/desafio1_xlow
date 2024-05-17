@@ -9,20 +9,22 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin: 70px 0px;
 }
 
 .container1 {
     margin-top: 50px;
     width: 40%;
+
 }
 
 .container1 h1 {
-    font-size: 13px;
+    font-size: 15px;
     font-family: poppins;
     height: 100%;
     width: 90%;
     text-align: center;
+    font-weight: 700;
 }
 
 .container1 button {
@@ -33,20 +35,74 @@
     padding: 10px;
     cursor: pointer;
     font-family: poppins;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 .container1 img {
-    width: 100px;
+    width: 90%;
     display: flex;
+    cursor: pointer;
 }
 
 .mudarCel {
     width: 80%;
 }
 
+.contagem,
+.ordem {
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+
+.contagem h1 {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 700;
+}
 
 .ordem button {
     cursor: pointer;
+    background-color: #0170b9;
+    border-radius: 10px;
+    border: 0;
+    font-family: poppins;
+    color: white;
+    padding: 10px;
+}
+
+.divimg {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.divimg img {
+    width: 30%;
+    border: 2px solid lightgray;
+
+
+}
+
+.price {
+    text-align: center;
+    font-family: poppins;
+    color: gray;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.promoprice {
+    text-align: center;
+    font-family: poppins;
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 @media screen and (min-width:767px) and (max-width: 3000px) {
@@ -65,5 +121,15 @@
 
     .mudarDesk {
         width: 25%;
+    }
+
+    .divimg img {
+        width: 20%;
+    }
+
+    .container1 button {
+        width: 90%;
+        display: flex;
+        justify-content: center;
     }
 }
